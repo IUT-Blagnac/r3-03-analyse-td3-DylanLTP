@@ -28,10 +28,13 @@ public class AppTest
     }
 
     /**
-     * Test the return with a parameter
+
+     * Test the return with empty parameter
      */
-    public void testHelloParameter()
+    public void testHelloEmptyParameter()
     {
-        assertEquals("Hello JMB!", App.hello("Hello JMB!"));
+        assertEquals("Hello World!", App.hello());
     }
+
+
 }
